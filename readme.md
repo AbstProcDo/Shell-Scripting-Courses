@@ -192,7 +192,7 @@ while [[ "$count" -le 5 ]]; do
 doneecho "Finished."
 ```
 
-# 7.读取键盘输入
+## 7.读取键盘输入
 
 程序极为重要的一点是与用户的沟通与互动。我最爱用read取代xargs，例如这样的结构：
 
@@ -213,7 +213,7 @@ echo "REPLY = '$REPLY'"
 read  -t 10 -p  "Enter secret passphrase"
 ```
 
-# 8.收尾总结
+## 8.收尾总结
 
 本文我们探讨了 bash-script 的七项基本元素：
 
